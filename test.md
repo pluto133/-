@@ -1,12 +1,12 @@
 ```mermaid
 gantt
-    title Delivery timeline
+    title Delivery timeline(Draft)
     dateFormat  YYYY-MM-DD
     section ITSHOP Readiness
-    A task(WIP):active, a1, 2024-07-27, 14d
-    B Task（Pending）     :done,a2,after a1  , 20d
+    Device Model Selection(WIP):active, a1, 2024-07-27, 14d
+    QEV creation/testing     : after a1  , 5d
     section Delivery
-    Task_A      :2024-08-01  , 12d
-    Task_B      : 24d
-    Task_C:
+    Device Configuraiton/setup      :2024-09-23  , 21d
+    Package/shiping      : 5d
+    Returning phone/polycom     : 5d
 ```
