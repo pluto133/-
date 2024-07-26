@@ -1,11 +1,11 @@
 ```mermaid
 gantt
-    title A Gantt Diagram
+    title Delivery timeline
     dateFormat  YYYY-MM-DD
-    section Section
-    A task           :a1, 2014-01-01, 30d
-    Another task     :after a1  , 20d
-    section Another
-    Task in sec      :2014-01-12  , 12d
-    another task      : 24d
+    section ITSHOP Readiness
+    A task     :a1, 2024-07-27, 14d
+    B Task     :after a1  , 20d
+    section Delivery
+    Task_A      :2024-08-01  , 12d
+    Task_B      : 24d
 ```
