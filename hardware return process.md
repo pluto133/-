@@ -1,3 +1,4 @@
+``` mermaid
 flowchart TD
     A[Initiation] -->|Employee Notification| B[Return Request Form]
     B --> C[Authorization]
@@ -55,3 +56,4 @@ flowchart TD
     subgraph Confirmation and Reporting
         S --> T
     end
+```
