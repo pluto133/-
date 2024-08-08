@@ -14,6 +14,7 @@ sequenceDiagram
     SA->>W: Ship hardware to Storage Area
     #W->>SA: Receive hardware and check condition
     W->>F: Verify hardware quantity
+    ITC->>F: Notice vendor to pickup hardware *after request got approved
     F->>W: Confirm hardware recevied
     # SA->>C: Confirm return and process refund
     # C->>SA: Acknowledge refund receipt
