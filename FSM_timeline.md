@@ -3,7 +3,7 @@ gantt
     title File Share Management(FSM) ITSHOP Project
     dateFormat  YYYY-MM-DD
 
-    Section BMBS Permisson fixing
+    Section Phase 1
     BMBS Permisson fixing (ongoing) :active, a1, 2024-09-01, 24w
     FSM onboard    : a2,after a1, 6w
 
