@@ -1,13 +1,17 @@
 ```mermaid
 gantt
-    title Delivery timeline(Draft)
+    title File Share Management(FSM) ITSHOP Project
     dateFormat  YYYY-MM-DD
-    section ITSHOP Readiness
-    Device Model Selection(Done):active, a1, 2024-07-27, 20d
-    QEV creation/testing(WIP)     : after a1, 2024-08-21, 12d
-    Section Good Receive and shipping
-    Good receive (TBD)  : after a1, 2024-09-16, 5d
-    section Delivery
-    Device Configuraiton/setup      :2024-09-23, 5d
-    Returning phone/polycom     : 5d
+
+    Section BMBS Permisson fixing
+    BMBS Permisson fixing (ongoing) :active, a1, 2024-09-01, 6m
+    FSM onboard     : a2,after a1, 6w
+
+    Section Phase 2
+    Non-RD  : a3,after a2, 8m
+    FSM onboard     :  a4, after a3, 6w
+
+    Section Phase 3
+    RD (Planning) :a5, after a4, 8m
+    FSM onboard     : a6, after a5, 6w
 ```
