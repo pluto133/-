@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
     A[Start] --> B[Asset Identification]
     B --> C[Asset Acquisition]
@@ -17,3 +18,4 @@ flowchart TD
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style M fill:#f96,stroke:#333,stroke-width:2px
     style I fill:#ff9,stroke:#333,stroke-width:2px
+```
