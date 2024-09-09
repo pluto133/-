@@ -9,7 +9,7 @@ flowchart TD
     H --> I{Is Asset Still in Use?}
     I -->|Yes| G
     I -->|No| J[Asset Decommissioning]
-    J --> K[Asset Disposal or Recycling]
+    J --> K[Asset Disposal]
     K --> L[Update Asset Records]
     L --> M[End]
 
