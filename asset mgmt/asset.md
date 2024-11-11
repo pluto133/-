@@ -1,6 +1,6 @@
 ```mermaid
 flowchart TD
-    A[Start] --> C[Asset Acquisition, DaaS device ordering]
+    A[Start] --> C[Asset Acquisition, device ordering]
     C --> D[Asset Delivery Goods and Registration]
     D --> E[Asset Inventory and Tagging]
     E --> F[Asset Assignment and Deployment]
